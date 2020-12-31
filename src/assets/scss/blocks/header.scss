@@ -1,7 +1,7 @@
 .header {
   width: calc(100% - #{$sidebar-width});
   height: 30px;
-  background-color: rgb(117, 117, 117);
+  background-color: $primary;
   position: fixed;
   top: 0;
   right: 0;

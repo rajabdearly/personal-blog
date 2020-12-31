@@ -2,9 +2,35 @@
   width: $sidebar-width;
   height: 100vh;
 
-  background-color: #ccc;
+  background-color: $primary;
+  box-shadow: 5px 0 15px rgba(#050505, 0.5);
+
   position: fixed;
   top: 0;
   left: 0;
   z-index: $z-index-sidebar;
+}
+
+.sidebar__header {
+  height: 180px;
+  background-color: $secondary;
+
+  img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.sidebar__content {
+  padding: 0 2rem;
+  position: relative;
+  margin-top: -5rem;
+}
+
+.sidebar__footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2rem;
 }
