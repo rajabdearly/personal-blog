@@ -3,4 +3,62 @@ layout: default
 title: Rajab Azizli | Home
 ---
 
-Hello!
+<!-- Stories -->
+<div class="stories">
+  <div class="stories__item">
+    <img
+      class="stories__preview"
+      src="./assets/images/stories/storie1.jpg"
+      alt=""
+    />
+    <div class="stories__title">On vacation</div>
+    <time class="stories__date" datetime="2021-01-06">06.01.2021</time>
+  </div>
+  <div class="stories__item">
+    <img
+      class="stories__preview"
+      src="./assets/images/stories/storie2.jpg"
+      alt=""
+    />
+    <div class="stories__title">Working</div>
+    <time class="stories__date" datetime="2021-01-06">06.01.2021</time>
+  </div>
+  <div class="stories__item">
+    <img
+      class="stories__preview"
+      src="./assets/images/stories/storie3.jpg"
+      alt=""
+    />
+    <div class="stories__title">Chilling</div>
+    <time class="stories__date" datetime="2021-01-06">06.01.2021</time>
+  </div>
+  <div class="stories__item">
+    <img
+      class="stories__preview"
+      src="./assets/images/stories/storie4.jpg"
+      alt=""
+    />
+    <div class="stories__title">Daily</div>
+    <time class="stories__date" datetime="2021-01-06">06.01.2021</time>
+  </div>
+</div>
+<!-- Stories -->
+
+<!-- Add post -->
+<div class="add-post">
+  <form class="add-post__form" action="/" method="POST">
+    <textarea
+      class="add-post__textarea"
+      name="post-name"
+      placeholder="Share post "
+    ></textarea>
+    <div class="add-post__form-actions">
+      <label class="add-post__file" for="add-post-file">
+        <input type="file" id="add-post-file" />
+      </label>
+      <button class="add-post__send" type="submit">
+        <img src="./assets/images/send.svg" alt="" />
+      </button>
+    </div>
+  </form>
+</div>
